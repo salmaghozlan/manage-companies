@@ -1,0 +1,13 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Dashboard</h1>
+                <p>Total number of companies: {{ $companyCount }}</p>
+                <p>Total number of employees: {{ $employeeCount }}</p>
+            </div>
+        </div>
+    </div>
+@endsection
